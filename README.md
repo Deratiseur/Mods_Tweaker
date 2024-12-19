@@ -10,10 +10,10 @@
 [Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=34693)
 
 Des Tweaks pour d'autres mods. A installler après les mods en question.
-- Donner au pnj Horace les immunités d'un squelette.
-- Déplacer le pnj Horace dans le cimetière d'Athktla.
-- Donner au pnj Chiarra de forme humaine les immunités d'un vampire et fixer sa race sur vampire.
-- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a>  un portrait adéquat (COMPOSANT NON INSTALLABLE POUR LE MOMENT).
+- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> les immunités d'un squelette.
+- Déplacer le pnj <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> dans le cimetière d'Athktla.
+- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiarra</a> de forme humaine les immunités d'un vampire et fixer sa race sur vampire.
+- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> un portrait adéquat (COMPOSANT NON INSTALLABLE POUR LE MOMENT).
 - Transformer le pnj Moddie en compagnon animal (qui vous suit comme un 7eme compagnon).
 - Donner au pnj Ninafer un portrait alternatif.
 - Changer la classe du pnj Ninafer en une tueuse de magicien/mage (elle garde son équipement familial).
