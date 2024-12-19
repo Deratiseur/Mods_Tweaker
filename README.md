@@ -14,12 +14,12 @@ Des Tweaks pour d'autres mods. A installler après les mods en question.
 - Déplacer le pnj <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> dans le cimetière d'Athktla.
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiarra</a> de forme humaine les immunités d'un vampire et fixer sa race sur vampire.
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> un portrait adéquat (COMPOSANT NON INSTALLABLE POUR LE MOMENT).
-- Transformer le pnj Moddie en compagnon animal (qui vous suit comme un 7eme compagnon).
-- Donner au pnj Ninafer un portrait alternatif.
-- Changer la classe du pnj Ninafer en une tueuse de magicien/mage (elle garde son équipement familial).
-- Changer la classe du pnj Thael en Bretteur/mage.
-- Donner au pnj Sub_Zero des caractéristiques décentes.
-- Donner au pnj Yikari un peu de charisme supplémentaire quand il retrouve la parole
-- Retarder l'arrivée de l'anneau de Arena of T.R.O.W.
-- Les démons majeurs convocables dans Arena of T.R.O.W droppent leur cœur.
-- Permettre à un autre marchand de ventre les objets de Jamella's Diablo2 Item Store (de façon illimitée)
+- Transformer le pnj <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> en compagnon animal (qui vous suit comme un 7eme compagnon).
+- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> un portrait alternatif.
+- Changer la classe du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> en une tueuse de magicien/mage (elle garde son équipement familial).
+- Changer la classe du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Thael>Thael</a> en Bretteur/mage.
+- Donner au pnj <a href=https://github.com/Endarire/BG2-Sub-Zero-Companion>Sub_Zero</a> des caractéristiques décentes.
+- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Yikari>Yikari</a> un peu de charisme supplémentaire quand il retrouve la parole
+- Retarder l'arrivée de l'anneau de <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a>.
+- Les démons majeurs convocables dans <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> droppent leur cœur.
+- Permettre à un autre marchand de ventre les objets de <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (de façon illimitée)
