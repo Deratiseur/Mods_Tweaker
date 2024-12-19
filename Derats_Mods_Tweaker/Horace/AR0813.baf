@@ -1,0 +1,8 @@
+IF
+	Global("PxMTW_Horace","GLOBAL",0)
+	AreaCheck("AR0813")
+THEN
+	RESPONSE #100
+		SetGlobal("PxMTW_Horace","GLOBAL",1)
+		CreateCreature("Horace",[312.278],SSE)
+END
