@@ -16,7 +16,7 @@ Des Tweaks pour d'autres mods. A installler après les mods en question.
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> un portrait adéquat (COMPOSANT NON INSTALLABLE POUR LE MOMENT).
 - Transformer le pnj <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> en compagnon animal (qui vous suit comme un 7eme compagnon).
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> un portrait alternatif.
-- Changer la classe du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> en une tueuse de magicien/mage (elle garde son équipement familial).
+- Changer la classe du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> en tueuse de magicien/mage (elle garde son équipement familial).
 - Changer la classe du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Thael>Thael</a> en Bretteur/mage.
 - Donner au pnj <a href=https://github.com/Endarire/BG2-Sub-Zero-Companion>Sub_Zero</a> des caractéristiques décentes.
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Yikari>Yikari</a> un peu de charisme supplémentaire quand il retrouve la parole
