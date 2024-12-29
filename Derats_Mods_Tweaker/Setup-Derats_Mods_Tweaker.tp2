@@ -1,6 +1,6 @@
 BACKUP ~Derats_Mods_Tweaker/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v1~
+VERSION ~v1.1~
 
 ALWAYS
 	ACTION_DEFINE_ARRAY px_noconvert BEGIN END
@@ -195,13 +195,12 @@ REQUIRE_COMPONENT ~Nina.tp2~ 0 @7000
 COPY_EXISTING ~CMNINAF9.cre~	~override~	WRITE_SHORT 0x246 0x4002			
 COPY_EXISTING ~cmninari.itm~	~override~	WRITE_BYTE 0x2f 0
 
-BEGIN @12 DESIGNATED 11 LABEL Px_MTWK_Thael
-REQUIRE_COMPONENT ~Thael.tp2~ 0 11000
+BEGIN @12 DESIGNATED 12 LABEL Px_MTWK_Thael
+REQUIRE_COMPONENT ~Thael.tp2~ 0 12000
 COPY_EXISTING ~Thael.cre~	~override~
 			~Thael25.cre~	~override~	WRITE_SHORT 0x246 0x400C
 			LPF	ADD_CRE_EFFECT	INT_VAR opcode = 263	parameter2 = 2	target = 1	timing = 9	END
 COPY_EXISTING_REGEXP ~velve.*itm~	~override~	WRITE_BYTE 0x2b 0
-
 
 BEGIN @8 DESIGNATED 8 LABEL Px_MTWK_Sub_Zero
 REQUIRE_COMPONENT ~Sub-Zero.tp2~ 0 @8000
