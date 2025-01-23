@@ -9,7 +9,7 @@
 
 [Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=34693)
 
-Des Tweaks pour d'autres mods. A installler après les mods en question.
+Des Tweaks pour d'autres mods. A installer après les mods en question.
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> les immunités d'un squelette.
 - Déplacer le pnj <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> dans le cimetière d'Athktla.
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiarra</a> de forme humaine les immunités d'un vampire et fixer sa race sur vampire.
@@ -23,3 +23,22 @@ Des Tweaks pour d'autres mods. A installler après les mods en question.
 - Retarder l'arrivée de l'anneau de <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a>.
 - Les démons majeurs convocables dans <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> droppent leur cœur.
 - Permettre à un autre marchand de ventre les objets de <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (de façon illimitée)
+
+- --------------------------------
+
+Some Tweaks for other mods. To be installed after the mods in question.
+- Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> npc the immunities of a skeleton.
+- Move the <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> npc to the Athktla cemetery.
+- Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiarra</a> npc in human form the immunities of a vampire and set her race to vampire.
+- Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> npc an adequate portrait. COMPONENT NOT INSTALLABLE FOR THE MOMENT
+- Turn the <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> npc into a pet (who follows you as a 7th companion).
+- Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> npc an alternative portrait. Because Viconia
+- Change the class of the <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> npc class to Wizardslayer/Mage
+- Change the class of the <a href=https://github.com/Plutonium-X/1D_NPC_Thael>Thael</a> npc to Swashbuckler/Mage.
+- Give to the<a href=https://github.com/Endarire/BG2-Sub-Zero-Companion>Sub_Zero</a> npc decent characteristics.
+- Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Yikari>Yikari</a> npc some extra charisma when he regains his speech.
+- Delay the arrival of the  <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> Ring.
+- Major demons summonable in  <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> drop their hearts.
+- Allow another merchant to sell items from <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (unlimited).
+
+
