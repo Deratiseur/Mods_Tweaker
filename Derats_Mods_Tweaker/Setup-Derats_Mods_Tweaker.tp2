@@ -1,6 +1,6 @@
 BACKUP ~Derats_Mods_Tweaker/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v1.1~
+VERSION ~v2~
 
 ALWAYS
 	ACTION_DEFINE_ARRAY px_noconvert BEGIN END
@@ -26,6 +26,7 @@ LANGUAGE ~English~	~english~
 	~Derats_Mods_Tweaker/Languages/english/Jamella.tra~
 	
 BEGIN @1 DESIGNATED 1 LABEL Px_MTWK_Horace1
+REQUIRE_COMPONENT ~Horace.tp2~ 0 @2000
 COPY_EXISTING ~Horace.cre~	~override~
 WRITE_BYTE 0x5a 100	WRITE_BYTE 0x5f 100	WRITE_BYTE 0x60 50	WRITE_BYTE 0x62 50	WRITE_BYTE 0x63 50
 LPF	ADD_CRE_EFFECT	INT_VAR	opcode = 101	target = 1	parameter2 = 210	timing = 9	END
@@ -141,42 +142,16 @@ LPF	ADD_CRE_EFFECT	INT_VAR opcode = 267	target = 1	parameter1 = 41495	timing = 9
 LPF	ADD_CRE_EFFECT	INT_VAR	opcode = 101	target = 1	parameter2 = 23	timing = 9	END
 
 
-/* BEGIN @4 DESIGNATED 4 LABEL Px_MTWK_Moddie1
+BEGIN @4 DESIGNATED 4 LABEL Px_MTWK_Moddie1
 REQUIRE_COMPONENT ~FoxMonster.tp2~ 0 @5000
-ACTION_DEFINE_ARRAY languages BEGIN
-  "english" "german" "russian" "french"
+ACTION_IF GAME_IS ~BG2 TOB BGT~ THEN BEGIN	
+COPY ~Derats_Mods_Tweaker/Moddie/BG2~ ~override~
+COPY ~Derats_Mods_Tweaker/Moddie/EE/MODDIEL.bmp~ ~override~
 END
-OUTER_SET language_number = "-1"
-COPY "WeiDU.log" "WeiDU.log"
-  REPLACE_EVALUATE CASE_INSENSITIVE
-    "^~.*FoxMonster.\tp2~ #\([0-9]+\) #4\b"
-    BEGIN
-      PATCH_IF (IS_AN_INT "MATCH1") BEGIN
-        SET language_number = MATCH1
-      END
-    END
-    "%MATCH0%"
-BUT_ONLY IF_EXISTS
-
-OUTER_SPRINT language_name $languages("%language_number%")
-PRINT "language_number => %language_number% => %language_name %"
-
-ACTION_IF (language_number >= 0) AND ($languages("%language_number%") STRING_EQUAL "french") BEGIN
-    ACTION_IF GAME_IS ~BG2 TOB BGT~ THEN BEGIN	
-        COPY ~Derats_Mods_Tweaker/Moddie/BG2/Loup~ ~override~
-    END
-    ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
-        COPY ~Derats_Mods_Tweaker/Moddie/EE/loup~ ~override~
-    END
-END ELSE BEGIN
-    ACTION_IF GAME_IS ~BG2 TOB BGT~ THEN BEGIN	
-        COPY ~Derats_Mods_Tweaker/Moddie/BG2/Renard~ ~override~
-    END
-    ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN	
-        COPY ~Derats_Mods_Tweaker/Moddie/EE/Renard~ ~override~
-    END
-END */
-
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN	
+COPY ~Derats_Mods_Tweaker/Moddie/EE~ ~override~
+END
+ 
 BEGIN @5 DESIGNATED 5 LABEL Px_MTWK_Moddie2
 REQUIRE_COMPONENT ~FoxMonster.tp2~ 0 @5000
 COMPILE ~Derats_Mods_Tweaker/Moddie/Z_ModdyJ.d~
@@ -202,13 +177,22 @@ COPY_EXISTING ~Thael.cre~	~override~
 			LPF	ADD_CRE_EFFECT	INT_VAR opcode = 263	parameter2 = 2	target = 1	timing = 9	END
 COPY_EXISTING_REGEXP ~velve.*itm~	~override~	WRITE_BYTE 0x2b 0
 
+BEGIN @17 DESIGNATED 17 LABEL Px_MTWK_Tomoyo
+REQUIRE_COMPONENT ~DNT.tp2~ 0 17000
+COPY_EXISTING ~tomoyo.cre~	~override~	WRITE_SHORT 0x246 0x4002 //Vérifier ingame si les boost sont bien donnés.
+
 BEGIN @8 DESIGNATED 8 LABEL Px_MTWK_Sub_Zero
 REQUIRE_COMPONENT ~Sub-Zero.tp2~ 0 @8000
 COPY_EXISTING ~_!SBZ1.CRE.cre~	~override~
-WRITE_BYTE 0x238 16	WRITE_BYTE 0x23c 18	WRITE_BYTE 0x23d 15	WRITE_BYTE 0x23a 14	WRITE_BYTE 0x23b 14	WRITE_BYTE 0x23e 10
+WRITE_BYTE 0x238 16	WRITE_BYTE 0x23c 18	WRITE_BYTE 0x23d 15	WRITE_BYTE 0x23a 14	WRITE_BYTE 0x23b 12	WRITE_BYTE 0x23e 10
+
+BEGIN @20 DESIGNATED 20 LABEL Px_MTWK_Banana
+REQUIRE_COMPONENT ~Banana.tp2~ 0 @20000
+COPY_EXISTING ~banana.cre~	~override~
+WRITE_BYTE 0x238 16	WRITE_BYTE 0x23c 18	WRITE_BYTE 0x23d 17	WRITE_BYTE 0x23a 17	WRITE_BYTE 0x23b 9	WRITE_BYTE 0x23e 8
 
 BEGIN @9 DESIGNATED 9 LABEL Px_MTWK_Yikari
-REQUIRE_COMPONENT ~Yikari.tp2~ 0 9000
+REQUIRE_COMPONENT ~Yikari.tp2~ 0 @9000
 COPY ~Derats_Mods_Tweaker/Yikari~ ~override~
 COPY_EXISTING ~SDNPC.bcs~ ~override~
   DECOMPILE_AND_PATCH BEGIN
@@ -216,9 +200,22 @@ COPY_EXISTING ~SDNPC.bcs~ ~override~
   ReallyForceSpellRes("pxmtwyik",Myself)~
   END
  BUT_ONLY
+ 
+BEGIN @18 DESIGNATED 18 LABEL Px_MTWK_Mawgul
+REQUIRE_COMPONENT ~MawgulNPC.tp2~ 0 @18000
+COPY_EXISTING ~AR0512.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+  REPLACE_TEXTUALLY ~IF
+	Global("MauroExists","AR0512",0)
+THEN~ ~IF
+	XPGT(Player1,1999999)
+	Global("MauroExists","AR0512",0)
+THEN~
+  END
+ BUT_ONLY
 
 BEGIN @10 DESIGNATED 10 LABEL Px_MTWK_TROW1
-REQUIRE_COMPONENT ~UoT.tp2~ 0 10000
+REQUIRE_COMPONENT ~UoT.tp2~ 0 @10000
 COPY_EXISTING ~Baldur.bcs~ ~override~
   DECOMPILE_AND_PATCH BEGIN
     REPLACE_TEXTUALLY ~LevelGT(Player1,1)
@@ -228,13 +225,39 @@ COPY_EXISTING ~Baldur.bcs~ ~override~
 BUT_ONLY
 
 BEGIN @13 DESIGNATED 13 LABEL Px_MTWK_TROW2
-REQUIRE_COMPONENT ~UoT.tp2~ 0 10000
+REQUIRE_COMPONENT ~UoT.tp2~ 0 @10000
 COPY_EXISTING ~trble01.cre~ ~override~
 			  ~trora01.cre~ ~override~
 			  ~trpit01.cre~ ~override~	ADD_CRE_ITEM ~misc6m~ #0 #0 #0 ~NONE~ ~INV~
 
 BEGIN @11 DESIGNATED 11 LABEL Px_MTWK_Jamella
-REQUIRE_COMPONENT ~d2item.tp2~ 0 11000
+REQUIRE_COMPONENT ~d2item.tp2~ 0 @11000
 COPY ~Derats_Mods_Tweaker/Jamella/pxmtwjam.cre~ ~override~	SAY NAME1 @11999	SAY NAME2 @11999
 COMPILE ~Derats_Mods_Tweaker/Jamella/pxmtwjam.d~
 EXTEND_BOTTOM ~AR3000.BCS~	~Derats_Mods_Tweaker/Jamella/AR3000.baf~
+
+/*
+BEGIN @15 DESIGNATED 15 LABEL Px_MTWK_Interplan
+REQUIRE_COMPONENT ~derats_magasin_2.tp2~ 0 @15000
+COMPILE ~Derats_Mods_Tweaker/Interplan/pxinter1.d~
+EXTEND_BOTTOM ~AR5500.BCS~	~Derats_Mods_Tweaker/Interplan/AR5500.baf~
+COPY_EXISTING	~pxagen2a.sto~	~override~	REMOVE_STORE_ITEM	~pxl2coff~
+
+BEGIN @16 DESIGNATED 16 LABEL Px_MTWK_Interplan2
+REQUIRE_COMPONENT ~derats_magasin_2.tp2~ 0 @15000
+COPY_EXISTING ~Book17.itm~ ~override/pxinter1.itm~	SAY NAME2 @1691	SAY DESC @1692
+COPY_EXISTING	~shop08.sto~	~override~  ADD_STORE_ITEM ~pxinter1~ LAST #0 #0 #0 ~IDENTIFIED~ #1
+*/
+
+BEGIN @14 DESIGNATED 14 LABEL Px_MTWK_Zulu
+REQUIRE_COMPONENT ~jl#Zulu.tp2~ 0 @14000
+COPY ~Derats_Mods_Tweaker/Zulu~ ~override~
+
+BEGIN @19 DESIGNATED 14 LABEL Px_MTWK_TTSQ
+REQUIRE_COMPONENT ~TTSQ.tp2~ 0 @19000
+COPY_EXISTING ~cutbae.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+  REPLACE_TEXTUALLY ~TakePartyItem("metwaso")~ ~AddexperienceParty(10000)
+	TakePartyItem("metwaso")~
+  END
+ BUT_ONLY
