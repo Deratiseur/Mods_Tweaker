@@ -5,15 +5,10 @@ Modification :
 Corrections :
 - Ce n'est pas "Arena of T.R.O.W", c'est "Umbra of T.R.O.W".
 - Le composant "Donner au pnj Moddie un portrait adéquat" devient installable grâce à un nouveau portrait spontanément offert par scheele (merci beaucoup).
-- le composant "Donner au pnj Sub_Zero des caractéristiques décentes" ne s'installait pas à cause de l'installation non conventionnelle dudit mod.
 
 Ajout :
 - un composant pour le kit de Guerrier-lion.
-- deux composants pour L'Interplan.
 - un composant pour le pnj Mawgul.
 - un composant pour le pnj Banana.
 - un composant pour le mod The Tortured Soul Quest.
 - un composant pour le mod Tomoyo and the Underground City.
-
-
-////////A mettre en ligne quand j'aurais mis en ligne L'Interplan v9.
