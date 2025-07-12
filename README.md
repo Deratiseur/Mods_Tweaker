@@ -20,7 +20,7 @@ Des Tweaks pour d'autres mods. A installer après les mods en question.
 - Changer la classe du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Thael>Thael</a> en Bretteur/mage.
 - Changer la classe du pnj <a href=https://github.com/Plutonium-X/FIGHT_Tomoyo>Tomoyo Sakagaki</a> en kensaï.
 - Donner au pnj <a href=https://github.com/Endarire/BG2-Sub-Zero-Companion>Sub_Zero</a> des caractéristiques décentes.
-- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Banana>Banana!</a> des caractéristiques décentes.
+- Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Banana>Banana !</a> des caractéristiques décentes.
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Yikari>Yikari</a> un peu de charisme supplémentaire quand il retrouve la parole
 - Retarder l'arrivée du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a>.
 - Retarder l'arrivée de l'anneau de <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a>.
