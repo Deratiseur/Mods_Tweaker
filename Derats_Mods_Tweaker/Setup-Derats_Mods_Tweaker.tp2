@@ -1,6 +1,6 @@
 BACKUP ~Derats_Mods_Tweaker/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v2~
+VERSION ~v2.1~
 
 ALWAYS
 	ACTION_DEFINE_ARRAY px_noconvert BEGIN END
