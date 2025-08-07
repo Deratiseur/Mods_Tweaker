@@ -25,7 +25,7 @@ Des Tweaks pour d'autres mods. A installer après les mods en question.
 - Retarder l'arrivée du pnj <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a>.
 - Retarder l'arrivée de l'anneau de <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a>.
 - Les démons majeurs convocables dans <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> droppent leur cœur.
-- Permettre à un autre marchand de ventre les objets de <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (de façon illimitée)
+- Permettre à un autre marchand de vendre les objets de <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (de façon illimitée)
 - Rendre la métamorphe du kit de <a href=https://github.com/Plutonium-X/KIT_Lion>Guerrier lion</a> semi-permanente.
 - Libérer <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> de son esclavage rapporte de l'xp.
 
