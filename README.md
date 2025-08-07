@@ -40,12 +40,12 @@ Some Tweaks for other mods. To be installed after the mods in question.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> npc an alternative portrait. Because Viconia
 - Change the class of the <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> npc class to Wizardslayer/Mage
 - Change the class of the <a href=https://github.com/Plutonium-X/1D_NPC_Thael>Thael</a> npc to Swashbuckler/Mage.
-- Change the class of the <a href=https://github.com/Plutonium-X/FIGHT_Tomoyo>Tomoyo Sakagaki</a> npc to kensai.
+- Change the class of the <a href=https://github.com/Plutonium-X/FIGHT_Tomoyo>Tomoyo Sakagaki</a> npc to kKensai.
 - Give to the <a href=https://github.com/Endarire/BG2-Sub-Zero-Companion>Sub_Zero</a> npc decent characteristics.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Banana>Banana!</a> npc decent characteristics.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Yikari>Yikari</a> npc some extra charisma when he regains his speech.
 - Delay the arrival of the <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a> npc.
-- Delay the arrival of the <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> Ring.
+- Delay the arrival of the <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> ring.
 - Major demons summonable in <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> drop their hearts.
 - Allow another merchant to sell items from <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (unlimited).
 - Make the <a href=https://github.com/Plutonium-X/KIT_Lion>Lion Warrior</a> kit's shapeshifter semi-permanent.
