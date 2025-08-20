@@ -27,9 +27,9 @@ Des Tweaks pour d'autres mods. A installer après les mods en question.
 - Les démons majeurs convocables dans <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> droppent leur cœur.
 - Permettre à un autre marchand de vendre les objets de <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (de façon illimitée)
 - Permettre à un marchand dans TOB de vendre tous les objets trouvables par le Coffre chercheur de <a href=https://github.com/Deratiseur/Interplan>l'Interplan</a>.
-- Un marchand concurrent vend le livre "Les secrets de <a href=https://github.com/Deratiseur/Interplan>"l'Interplan</a>".
+- Un marchand concurrent vend le livre "Les secrets de <a href=https://github.com/Deratiseur/Interplan>l'Interplan</a>".
 - Rendre l'amulette du <a href=https://github.com/Plutonium-X/MISC_Sigil>mod d'anniversaire du forum Sigil</a> beaucoup plus facile d'utilisation.
-- Rendre l'amulette du<a href=https://github.com/Plutonium-X/MISC_Sigil>mod d'anniversaire du forum Sigil</a> vraiment illimitée. 
+- Rendre l'amulette du <a href=https://github.com/Plutonium-X/MISC_Sigil>mod d'anniversaire du forum Sigil</a> vraiment illimitée. 
 - Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> un portrait.
 - Accorder le <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> recrutable avec sa version invocable. 
 - Libérer <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> de son esclavage rapporte de l'xp.
@@ -55,6 +55,13 @@ Some Tweaks for other mods. To be installed after the mods in question.
 - Delay the arrival of the <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> ring.
 - Major demons summonable in <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> drop their hearts.
 - Allow another merchant to sell items from <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (unlimited).
-- Make the <a href=https://github.com/Plutonium-X/KIT_Lion>Lion Warrior</a> kit's shapeshifter semi-permanent.
+- Allow a merchant in TOB to sell all items found by <a href=https://github.com/Deratiseur/Interplan>the Interplan</a> Seeker Chest.
+- A competing shop is selling the book “The Secrets of <a href=https://github.com/Deratiseur/Interplan>The Interplan</a>".
+- Make the amulet of the <a href=https://github.com/Plutonium-X/MISC_Sigil>Sigil's birthday mod</a> much easier to use.
+- Make the amulet of the <a href=https://github.com/Plutonium-X/MISC_Sigil>Sigil's birthday mod</a> truly unlimited.
+- Give the to <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> npc a portrait. 
 - Freeing <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> from slavery earns xp.
+- Match the recruitable <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> with his summonable version.
+- Make the <a href=https://github.com/Plutonium-X/KIT_Lion>Lion Warrior</a> kit's shapeshifter semi-permanent.
+- Make sure the <a href=https://github.com/Plutonium-X/KIT_Slime>Jelly mutant </a> kit no longer changes gender to androgynous.
 
