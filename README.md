@@ -26,10 +26,17 @@ Des Tweaks pour d'autres mods. A installer après les mods en question.
 - Retarder l'arrivée de l'anneau de <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a>.
 - Les démons majeurs convocables dans <a href=https://github.com/Plutonium-X/FIGHT_Umbra_Of_T.R.O.W>Umbra of T.R.O.W</a> droppent leur cœur.
 - Permettre à un autre marchand de vendre les objets de <a href=https://github.com/shohysie/BG2MODS>Jamella's Diablo2 Item Store</a> (de façon illimitée)
-- Rendre la métamorphe du kit de <a href=https://github.com/Plutonium-X/KIT_Lion>Guerrier lion</a> semi-permanente.
+- Permettre à un marchand dans TOB de vendre tous les objets trouvables par le Coffre chercheur de <a href=https://github.com/Deratiseur/Interplan>l'Interplan</a>.
+- Un marchand concurrent vend le livre "Les secrets de <a href=https://github.com/Deratiseur/Interplan>"l'Interplan</a>".
+- Rendre l'amulette du <a href=https://github.com/Plutonium-X/MISC_Sigil>mod d'anniversaire du forum Sigil</a> beaucoup plus facile d'utilisation.
+- Rendre l'amulette du<a href=https://github.com/Plutonium-X/MISC_Sigil>mod d'anniversaire du forum Sigil</a> vraiment illimitée. 
+Donner au pnj <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> un portrait.
+Accorder le <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> recrutable avec sa version invocable. 
 - Libérer <a href=https://github.com/Plutonium-X/1D_NPC_Tortured>Baenwuld</a> de son esclavage rapporte de l'xp.
-
-- --------------------------------
+- Rendre la métamorphe du kit de <a href=https://github.com/Plutonium-X/KIT_Lion>Guerrier lion</a> semi-permanente.
+- Faire que le kit de <a href=https://github.com/Plutonium-X/KIT_Slime>Mutant de gelée</a> ne change plus le sexe en androgyne.
+  
+--------------------------------
 
 Some Tweaks for other mods. To be installed after the mods in question.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a> npc the immunities of a skeleton.
