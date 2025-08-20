@@ -1,0 +1,72 @@
+@0 = ~Modification diverses sur certains mods~
+@1 = ~Donner au pnj Horace les immunites d'un squelette~
+@2 = ~Deplacer le pnj Horace dans le cimetiere d'Athktla~
+@2000 = ~Le mod Horace n'est pas installe~
+@3 = ~Donner au pnj Chiara de forme humaine les immunites d'un vampire et fixer sa race sur vampire~
+@3000 = ~Le mod Chiara n'est pas installe~
+@4 = ~Donner au pnj Moddie un portrait adequat~
+@5 = ~Transformer le pnj Moddie en compagnon animal (qui vous suit comme un 7eme compagnon)~
+@5000 = ~Le mod Moddie the Vixxen n'est pas installe~
+@6 = ~Donner au pnj Ninafer un portrait alternatif~
+@7 = ~Faire du pnj Ninafer une tueuse de magicien/mage (elle garde son equipement familial)~
+@7000 = ~Le mod Ninafer n'est pas installe~
+@8 = ~Donner au pnj Sub-Zero des caracteristiques decentes~
+@8000 = ~Le mod Sub-Zero n'est pas installe~
+@9 = ~Donner au pnj Yikari un peu de charisme supplementaire quand il retrouve la parole~
+@9000 = ~Le mod Yikari n'est pas installe~
+@10 = ~Retarder l'arrivee de l'anneau de Umbra of T.R.O.W~
+@10000 = ~Le mod Umbra of T.R.O.W n'est pas installe~
+@11 = ~Permettre a un autre marchand de ventre les objets de Jamella's Diablo2 Item Store (de facon illimitee)~
+@11000 = ~Le mod Jamella's Diablo2 Item Store n'est pas installe~
+@11999 = ~Halbu~
+@12 = ~Faire du pnj Thael un Bretteur/Mage~
+@12000 = ~Le mod Thael n'est pas installe~
+@13 = ~Les demons majeurs convocables dans Umbra of T.R.O.W droppent leur cœur~
+@14 = ~Rendre la metamorphe du kit de Guerrier lion semi-permanente (comme les metamorphes modifiees par Tweak_Anthology ou SCS)~
+@14000 = ~Le mod Guerrier Lion n'est pas installe~
+@15 = ~Permettre a un marchand dans TOB de vendre tous les objets trouvables par le Coffre chercheur de l'Interplan~
+@15000 = ~Le mod l'Interplan n'est pas installe~
+@15998 = ~Marchandises exceptionnelles de Bellinda~
+@15999 = ~Bellinda~
+@16 = ~Un marchand concurrent vend le livre "Les secrets de l'Interplan"~
+@1691 = ~Les secrets de l'Interplan~
+@1692 = ~Ce petit guide s'adresse aux aventuriers qui font leur achats dans le magasin l'Interplan mais n'ont pas le temps d'en découvrir tous les petits secrets.
+
+
+Objets améliorables (vous devez utiliser/porter l'objet et parler à un personnage spécifique avec au moins x pièces d'or en réserve)
+- L’Étoile de Kahor : un nain forgeron très connu peut l'améliorer avec un composant spécial trouvable sur les docks.
+- Dent affamée de Kessek : vient de Planescape. Voyez du coté d'un personnage qui vend des objets venus de Planescape.
+- Bouclier toile : cherchez quelqu'un qui vénère les araignées. Non, pas Pai'na. Plutôt dans une cité souterraine.
+- Bandeaux de concentration : cherchez un nain insignifiant à Francmarché après le départ des daos. Prévoyez beaucoup d'argent.
+- Perle de gelée : reparlez à un pnj après la résolution d'une quête dans les égouts. Quelques jours après quelqu'un viendra à votre rencontre dans la Promenade de Waukyne.
+- Anneau du Magelame : parlez à un mendiant dans les Bas quartiers.
+
+
+Objet spécial :
+- Un bâton de nécromancien dans le Coffre chercheur peut donner lieu à une rencontre spéciale s'il est porté dans TOB. Si vous "trouvez" ce bâton, gardez le !
+
+
+Résolution de la quête :
+- Un sort qui peut recréer n'importe quel sort existant peut forcement créer le sort "Elfisation".
+- Une ceinture qui à stocké des centaines de sorts pourrait-elle elle avoir stocké le sort "Elfisation" ?
+- Un personnage appelé par le Sceptre de Convocation inconventionnelle de Nustill se pique de fabriquer des potions. Toutes foireuses. Toutes inutiles... ou pas.
+- Dans le Coffre chercheur un des grimoire contient de nombreux sorts inédits. Dont le sort "Elfisation".~
+@17 = ~Faire du pnj Tomoyo Sakagaki un kensaï (mod Tomoyo and the underground city)~
+@17000 = ~Le mod Tomoyo and the underground city n'est pas installe~
+@18 = ~Retarder l'arrivée du pnj Mawgul~
+@18000 = ~Le mod Mawgul n'est pas installe~
+@19 = ~Liberer Baenwuld de son esclavage rapporte de l'xp~
+@19000 = ~Le mod The Tortured Soul Quest n'est pas installe~
+@20 = ~Donner au pnj Banana des caracteristiques decentes~
+@20000 = ~Le mod Banana n'est pas installe~
+@21 = ~Faire que le kit de Mutant de gelee ne change plus le sexe en androgyne~
+@21000 = ~Le mod Mutant de gelee n'est pas installe~
+@22 = ~Donner au pnj Baenwuld (mod The Tortured Soul Quest) un portrait~
+@23 = ~Accorder le Baenwuld recrutable avec sa version invocable~
+@24 = ~Rendre l'amulette du mod d'anniversaire du forum Sigil beaucoup plus facile d'utilisation~
+@24000 = ~Le Mod d'anniversaire de Sigil.cz n'est pas installe~
+@2491 = ~Amulette de Sigil~
+@2492 = ~Cette étrange amulette est faite d'un métal gris inconnu. Au premier coup d'œil, on peut voir de nombreuses runes gravées dessus.
+Au centre de l'amulette est gravée la plus grande rune de toutes, stylisée en forme de www.sigil.cz. Vous ne vous souvenez plus où, mais vous êtes sûr d'avoir déjà vu cette rune - peut-être dans "google" ou "yahoo". La rune symbolise un certain portail.
+Outre la partie centrale, l'amulette contient douze autres éléments. Chacun d'eux est gravé d'une unique rune et d'une courte notice. Les runes indiquent probablement des dieux inconnus liés à Sigil. Si vous le souhaitez, vous pouvez examiner chacun de ces douze éléments.~
+@25 = ~Rendre l'amulette du mod d'anniversaire du forum Sigil vraiment illimitee~

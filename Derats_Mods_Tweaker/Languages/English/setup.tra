@@ -1,0 +1,72 @@
+@0 = ~Various modifications to some mods~
+@1 = ~Give to the Horace npc the immunities of a skeleton~
+@2 = ~Move the Horace npc to the Athktla cemetery~
+@2000 = ~The Horace npc mod is not installed~
+@3 = ~Give to the Chiarra npc in human form the immunities of a vampire and set her race to vampire~
+@3000 = ~The Chiara npc mod is not installed~
+@4 = ~Give to the Moddie npc an adequate portrait~
+@5 = ~Turn the Moddie npc into a pet (who follows you as a 7th companion)~
+@5000 = ~The Moddie the Vixxen npc mod is not installed~
+@6 = ~Give to the Ninafer npc an alternative portrait~
+@7 = ~Change the class of the Ninafer npc class to Wizardslayer/Mage (she keeps her family equipment)~
+@7000 = ~The Ninafer npc mod is not installed~
+@8 = ~Give to the Sub_Zero npc decent characteristics~
+@8000 = ~The Sub_Zero npc mod is not installed~
+@9 = ~Give to the Yikari npc some extra charisma when he regains his speech~
+@9000 = ~The Yikari npc mod is not installed~
+@10 = ~Delay the arrival of the Umbra of T.R.O.W. Ring~
+@10000 = ~The Umbra of T.R.O.W mod is not installed~
+@11 = ~Allow another merchant to sell items from Jamella's Diablo2 Item Store (unlimited)~
+@11000 = ~The Jamella's Diablo2 Item Store mod is not installed~
+@11999 = ~Halbu~
+@12 = ~Change the class of the Thael npc to Swashbuckler/Mage~
+@12000 = ~The Theal npc mod is not installed~
+@13 = ~Major demons summonable in Umbra of T.R.O.W drop their hearts~
+@14 = ~Make the Lion Warrior kit's shapeshifter semi-permanent (like the shapeshifters modified by Tweak_Anthology or SCS)~
+@14000 = ~The Lion Warrior Kit mod is not installed~
+@15 = ~Allow a merchant in TOB to sell all items found by the Interplan Seeker Chest~
+@15000 = ~The Interplan mod is not installed~
+@15998 = ~Marchandises exceptionnelles de Bellinda~
+@15999 = ~Bellinda~
+@16 = ~A competing shop is selling the book “The Secrets of The Interplan”~
+@1691 = ~The Secrets of The Interplan~
+@1692 = ~This short guide is intended for adventurers who do their shopping at the Interplan store but don't have time to discover all its little secrets.
+
+
+Upgradable items (you must use/equip the item and talk to a specific character with at least x gold coins in reserve)
+- The Star of Kahor: A well-known dwarf blacksmith can upgrade it with a special component found at the docks.
+- Kessek's Hungry Tooth: Comes from Planescape. Look for a character who sells items from Planescape.
+- Web Shield: Look for someone who worships spiders. No, not Pai'na. More likely in an underground city.
+- Concentration bands: look for an insignificant dwarf in Trademeet after the daos have left. Bring plenty of money.
+- Jelly Pearl: Talk to an NPC again after completing a quest in the sewers. A few days later, someone will come to meet you in Waukyne Promenade.
+- Magelame Ring: Talk to a beggar in the Slums.
+
+
+Special item:
+- A necromancer's staff in the Seeker's Chest can lead to a special encounter if carried in TOB. If you “find” this staff, keep it!
+
+
+Quest resolution:
+- A spell that can recreate any existing spell can necessarily create the spell “Elfisation.”
+- Could a belt that has stored hundreds of spells have stored the spell “Elfisation”?
+- A character summoned by Nustill's Unconventional Scepter of Convocation prides himself on making potions. All of them are useless... or are they?
+- In the Seeker's Chest, one of the grimoires contains many new spells, including the spell “Elfisation”.~
+@17 = ~Change the class of the Tomoyo Sakagaki npc to Kensaï. (Tomoyo and the underground city mod).~
+@17000 = ~The Tomoyo and the underground city mod in not installed~
+@18 = ~Delay the arrival of the pnj Mawgul.~
+@18000 = ~The Mawgul npc mod is not installed~
+@19 = ~Freeing Baenwuld from slavery (The Tortured Soul Quest mod) earns xp.~
+@19000 = ~The Tortured Soul Quest mod is not installed~
+@20 = ~Give to the Banana npc decent characteristics~
+@20000 = ~The Banana! npc mod is not installed~
+@21 = ~Make sure the Jelly mutant Kit no longer changes gender to androgynous.~
+@21000 = ~The Jelly mutant Kit mod is not installed~
+@22 = ~Give the to Baenwuld NPC (mod The Tortured Soul Quest) a portrait~
+@23 = ~Match the recruitable Baenwuld with his summonable version~
+@24 = ~Make the amulet of the Sigil's birthday mod much easier to use~
+@24000 = ~The Sigil's birthday mod is not installed~
+@2491 = ~Amulet of Sigil~
+@2492 = ~This strange amulet is made from unknown grey metal. At first you can see a lot of runes engraved in it.
+In the center of the amulet there is engraved the biggest rune of all, stylized in the shape of www.sigil.cz. You cannot remember where but you are sure you've seen this rune before - maybe in "google" or "yahoo". The rune symbolizes certain portal.
+Apart from the middle part the amulet contains twelve other parts. Each is marked by unique rune and a short notice. The runes probably points to some unknown gods related to Sigil. If you want, you can examine each of those twelve parts.~
+@25 = ~Make the amulet of the Sigil's birthday mod truly unlimited~
