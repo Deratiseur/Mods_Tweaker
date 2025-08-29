@@ -44,10 +44,10 @@ Some Tweaks for other mods. To be installed after the mods in question.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiarra</a> npc in human form the immunities of a vampire and set her race to vampire.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> npc an adequate portrait.
 - Turn the <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a> npc into a pet (who follows you as a 7th companion).
-- Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> npc an alternative portrait. Because Viconia
+- Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> npc an alternative portrait.
 - Change the class of the <a href=https://github.com/Plutonium-X/1D_NPC_Ninafer>Ninafer</a> npc class to Wizardslayer/Mage
 - Change the class of the <a href=https://github.com/Plutonium-X/1D_NPC_Thael>Thael</a> npc to Swashbuckler/Mage.
-- Change the class of the <a href=https://github.com/Plutonium-X/FIGHT_Tomoyo>Tomoyo Sakagaki</a> npc to kKensai.
+- Change the class of the <a href=https://github.com/Plutonium-X/FIGHT_Tomoyo>Tomoyo Sakagaki</a> npc to Kensai.
 - Give to the <a href=https://github.com/Endarire/BG2-Sub-Zero-Companion>Sub_Zero</a> npc decent characteristics.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Banana>Banana!</a> npc decent characteristics.
 - Give to the <a href=https://github.com/Plutonium-X/1D_NPC_Yikari>Yikari</a> npc some extra charisma when he regains his speech.
