@@ -1,6 +1,6 @@
 BACKUP ~Derats_Mods_Tweaker/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v3~
+VERSION ~v3.1~
 
 ALWAYS
 	ACTION_DEFINE_ARRAY px_noconvert BEGIN END
@@ -209,7 +209,7 @@ COPY_EXISTING_REGEXP ~velve.*itm~	~override~	WRITE_BYTE 0x2b 0
 
 BEGIN @17 DESIGNATED 17 LABEL Px_MTWK_Tomoyo
 REQUIRE_COMPONENT ~DNT.tp2~ 0 17000
-COPY_EXISTING ~tomoyo.cre~	~override~	WRITE_SHORT 0x246 0x4002 //Vérifier ingame si les boost sont bien donnés.
+COPY_EXISTING ~tomoyo.cre~	~override~	WRITE_SHORT 0x246 0x4002 //VÃ©rifier ingame si les boost sont bien donnÃ©s.
 
 BEGIN @8 DESIGNATED 8 LABEL Px_MTWK_Sub_Zero
 REQUIRE_COMPONENT ~Sub-Zero.tp2~ 0 @8000
@@ -301,3 +301,4 @@ COPY_EXISTING ~sgt_amul.dlg~ ~override~
   REPLACE_TEXTUALLY ~GLOBAL",1)~ ~GLOBAL",0)~
   END
  BUT_ONLY
+
