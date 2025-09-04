@@ -268,7 +268,7 @@ EXTEND_TOP ~AR3000.BCS~	~Derats_Mods_Tweaker/Jamella/AR3000.baf~
 
 
 BEGIN @15 DESIGNATED 15 LABEL Px_MTWK_Interplan
-REQUIRE_COMPONENT ~derats_magasin_2.tp2~ 0 @15000
+REQUIRE_COMPONENT ~derats_magasin_2.tp2~ 33 @15000
 COMPILE ~Derats_Mods_Tweaker/Interplan/pxinter1.d~ USING ~Derats_Mods_Tweaker/Languages/%LANGUAGE%/Interplan.tra~
 EXTEND_TOP ~AR5500.BCS~	~Derats_Mods_Tweaker/Interplan/AR5500.baf~
 COPY ~Derats_Mods_Tweaker/Interplan/pxinter1.sto~ ~override~	SAY 0xc @15998
@@ -276,7 +276,7 @@ COPY ~Derats_Mods_Tweaker/Interplan/pxinter1.cre~ ~override~	SAY NAME1 @15999	SA
 COPY_EXISTING	~pxagen2a.sto~	~override~	REMOVE_STORE_ITEM	~pxl2coff~
 
 BEGIN @16 DESIGNATED 16 LABEL Px_MTWK_Interplan2
-REQUIRE_COMPONENT ~derats_magasin_2.tp2~ 0 @15000
+REQUIRE_COMPONENT ~derats_magasin_2.tp2~ 33 @15000
 COPY_EXISTING ~Book17.itm~ ~override/pxinter1.itm~	SAY NAME2 @1691	SAY DESC @1692
 COPY_EXISTING	~shop08.sto~	~override~  ADD_STORE_ITEM ~pxinter1~ LAST #0 #0 #0 ~IDENTIFIED~ #1
 
@@ -301,4 +301,5 @@ COPY_EXISTING ~sgt_amul.dlg~ ~override~
   REPLACE_TEXTUALLY ~GLOBAL",1)~ ~GLOBAL",0)~
   END
  BUT_ONLY
+
 
