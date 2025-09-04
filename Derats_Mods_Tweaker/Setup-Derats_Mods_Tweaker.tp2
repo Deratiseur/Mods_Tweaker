@@ -1,6 +1,6 @@
 BACKUP ~Derats_Mods_Tweaker/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v3.1~
+VERSION ~3.2~
 
 ALWAYS
 	ACTION_DEFINE_ARRAY px_noconvert BEGIN END
@@ -301,5 +301,6 @@ COPY_EXISTING ~sgt_amul.dlg~ ~override~
   REPLACE_TEXTUALLY ~GLOBAL",1)~ ~GLOBAL",0)~
   END
  BUT_ONLY
+
 
 
