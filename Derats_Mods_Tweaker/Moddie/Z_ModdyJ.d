@@ -1,2 +1,0 @@
-ADD_TRANS_ACTION z_moddyj BEGIN 19 END BEGIN 0 END ~MakeGlobal() ChangeAIScript("",DEFAULT)	SetLeavePartyDialogFile() LeaveParty() ChangeEnemyAlly(Myself,FAMILIAR) AddFamiliar()~
-ADD_TRANS_ACTION z_moddyj BEGIN 20 END BEGIN 0 END ~MakeGlobal() ChangeAIScript("",DEFAULT) SetLeavePartyDialogFile() LeaveParty() ChangeEnemyAlly(Myself,FAMILIAR) AddFamiliar()~
