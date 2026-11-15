@@ -9,8 +9,8 @@
 
 [Lien vers le forum français](https://www.baldursgateworld.fr/viewtopic.php?t=34693)
 
-[Lien vers le Lisez-moi complet](https://htmlpreview.github.io/?https://github.com/Deratiseur_Mods_Tweaker/blob/main/Derats_Mods_Tweaker/Documents/Mod_Tweaker_Lisez_moi.html)  
-[Link to full readme](https://htmlpreview.github.io/?https://github.com/Deratiseur_Mods_Tweaker/blob/main/Derats_Mods_Tweaker/Documents/Mod_Tweaker_Read_me.html)  
+[Lien vers le Lisez-moi complet](https://htmlpreview.github.io/?https://github.com/Deratiseur/Mods_Tweaker/blob/main/Derats_Mods_Tweaker/Documents/Mod_Tweaker_Lisez_moi.html)  
+[Link to full readme](https://htmlpreview.github.io/?https://github.com/Deratiseur/Mods_Tweaker/blob/main/Derats_Mods_Tweaker/Documents/Mod_Tweaker_Read_me.html)  
 
 <table>
 <tr>
