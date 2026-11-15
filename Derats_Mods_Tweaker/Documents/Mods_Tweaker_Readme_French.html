@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Deratiseur's Mods Tweaker — Readme français</title><style>
+   :root{
+  --gold: goldenrod;
+  --gold2:#c79a35;
+  --line:#96846e;
+  --brown:#655949;
+  --brown2:#41382f;
+  --paper:#4b463f;
+  --paper2:#37332e;
+  --text:#deded9;
+  --muted:#c4bfb7;
+  --black:#080706;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  padding:0 0 50px;
+  cursor:default;
+  color:var(--text);
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(120,95,55,.14), transparent 34%),
+    radial-gradient(ellipse at 80% 60%, rgba(95,70,40,.11), transparent 38%),
+    linear-gradient(#080706,#15120e 45%,#080706);
+  font-family:Verdana,Tahoma,Arial,sans-serif;
+  font-size:16px;
+}
+#cartouche{
+  width:calc(100% - 4cm);
+  max-width:none;
+  margin:20px 2cm 0;
+}
+#header{
+  text-align:center;
+  padding:8px 20px 18px;
+  min-height:245px;
+  border:1px solid var(--gold);
+  border-top:5px solid var(--gold);
+  border-bottom:5px solid var(--gold);
+  border-radius:4px;
+  box-shadow:8px 8px 15px #000;
+  background:
+    linear-gradient(rgba(255,255,255,.06),rgba(0,0,0,.16)),
+    radial-gradient(ellipse at center, #514a40 0,#2c2925 55%,#080706 100%);
+}
+h1{
+  line-height:170%;
+  font-size:225%;
+  color:var(--gold);
+  margin:0;
+  text-shadow:.1rem .1rem .25rem #000;
+}
+.subtitle{
+  margin:2px auto 18px;
+  color:#eee9dd;
+  font-size:105%;
+  font-weight:bold;
+}
+.header-rule{
+  width:90%;
+  height:1px;
+  margin:18px auto;
+  background:var(--gold);
+}
+.header-grid{
+  position:relative;
+  width:100%;
+  height:3.4em;
+  margin:0 auto;
+  font-size:105%;
+}
+.header-col{
+  position:absolute;
+  top:0;
+  width:max-content;
+  text-align:left;
+  line-height:170%;
+  transform:translateX(-50%);
+}
+.header-col-left{left:25%}
+.header-col-right{left:75%}
+.header-grid strong{color:#f1eee8}
+#menu{
+  font-weight:bold;
+  margin-top:20px;
+  padding:10px 18px;
+  text-align:center;
+  color:var(--gold);
+  line-height:220%;
+  border-top:1px solid #51483b;
+  border-bottom:1px solid #17130f;
+  border-radius:4px;
+  box-shadow:5px 5px 12px #000;
+  background:linear-gradient(#5f5447,#342d25 45%,#1a1713);
+}
+a:link,a:visited{color:var(--gold);text-decoration:none}
+a:hover,a:focus{text-decoration:underline;color:#eee}
+#maindiv{margin:0 auto;width:100%}
+.content{
+  background:
+    radial-gradient(circle at 15% 0, rgba(255,255,255,.035), transparent 26%),
+    linear-gradient(135deg, rgba(255,255,255,.025), transparent 35%),
+    linear-gradient(var(--paper),var(--paper2));
+  padding:0 0 28px;
+  margin:50px auto;
+  border-width:1px 1px 4px 10px;
+  border-style:solid;
+  border-color:var(--brown);
+  position:relative;
+  border-radius:4px;
+  box-shadow:8px 8px 15px #000;
+  overflow:hidden;
+}
+h2{
+  line-height:170%;
+  display:block;
+  text-align:left;
+  text-indent:30px;
+  padding:3px 0;
+  margin:0;
+  border-top:2px dotted var(--line);
+  border-bottom:2px dotted var(--line);
+  font-size:160%;
+  background:linear-gradient(#50473d,#2d2822);
+}
+h2::first-letter{color:var(--gold)}
+h3,h4{
+  line-height:170%;
+  margin:14px auto 8px;
+  width:90%;
+  padding:0;
+}
+h3{font-size:140%;color:#eee}
+h4{font-size:120%;color:var(--gold)}
+p{
+  text-align:justify;
+  font-size:110%;
+  line-height:150%;
+  margin:10px auto;
+  width:90%;
+}
+ul{
+  line-height:170%;
+  margin-left:4%;
+  width:87%;
+}
+hr{
+  margin:20px auto;
+  width:90%;
+  height:1px;
+  border:0;
+  background:var(--gold);
+}
+.important{
+  font-size:110%;
+  text-align:left;
+  border-width:1px 4px;
+  border-style:solid;
+  border-color:var(--gold);
+  padding:10px 16px;
+  margin:18px auto;
+  width:84%;
+  line-height:160%;
+  background:rgba(0,0,0,.13);
+}
+.note{
+  color:#f0eadf;
+  border-left:4px solid var(--gold);
+  width:88%;
+  margin:18px auto;
+  padding:10px 14px;
+  background:rgba(0,0,0,.16);
+  line-height:160%;
+}
+
+/* Grandes zones repliables */
+details.zone{
+  width:90%;
+  margin:14px auto;
+  border:1px solid #796b58;
+  border-left:5px solid var(--gold);
+  border-radius:3px;
+  background:rgba(0,0,0,.18);
+  box-shadow:0 2px 7px rgba(0,0,0,.35);
+}
+details.zone > summary{
+  list-style:none;
+  cursor:pointer;
+  padding:11px 15px;
+  font-weight:bold;
+  font-size:125%;
+  color:#eee;
+  background:linear-gradient(#4d4439,#29251f);
+  user-select:none;
+}
+details.zone > summary::-webkit-details-marker{display:none}
+details.zone > summary::before{
+  content:"▶";
+  color:var(--gold);
+  margin-right:10px;
+}
+details.zone[open] > summary::before{content:"▼"}
+.zonebody{padding:10px 16px 18px}
+.zonebody h4{
+  width:100%;
+  margin:14px 0 5px;
+  padding-bottom:3px;
+  border-bottom:1px solid #6c6153;
+}
+.zonebody ul{width:96%;margin-left:1.5%}
+
+/* Spoiler imbriqué : option plus difficile */
+details.hard{
+  width:96%;
+  margin:20px auto 4px;
+  border:1px solid var(--gold2);
+  background:#29251f;
+}
+details.hard > summary{
+  list-style:none;
+  cursor:pointer;
+  padding:9px 12px;
+  font-weight:bold;
+  color:var(--gold);
+  background:linear-gradient(#443a2e,#211d18);
+}
+details.hard > summary::-webkit-details-marker{display:none}
+details.hard > summary::before{
+  content:"▶";
+  margin-right:8px;
+}
+details.hard[open] > summary::before{content:"▼"}
+.hardbody{padding:10px 14px}
+
+/* Versions */
+details.versionbox{
+  width:90%;
+  margin:11px auto;
+  border-top:1px solid var(--gold);
+  border-bottom:1px solid var(--gold);
+}
+details.versionbox > summary{
+  cursor:pointer;
+  padding:7px 5px;
+  font-weight:bold;
+  color:#eee;
+}
+.versionbody{padding:4px 12px 10px}
+.versionbody ul{width:95%}
+
+.backtop{
+  text-align:right;
+  font-weight:bold;
+  margin:20px 5% 0;
+}
+.small{font-size:95%;color:var(--muted)}
+@media(max-width:760px){
+  #cartouche{width:96%;margin:12px auto 0}
+  .header-grid{height:auto}
+  .header-col{
+    position:static;
+    width:auto;
+    transform:none;
+    margin:5px 8%;
+  }
+  #header{min-height:0}
+  details.zone,p,.important,.note{width:94%}
+}
+
+
+/* Listes de l'Interplan */
+.item-list,.spell-level{width:90%;margin:14px auto;}
+.item-entry,.spell-entry{padding:10px 14px;margin:0;border-bottom:1px solid #6c6153;background:rgba(0,0,0,.08);}
+.item-entry:last-child,.spell-entry:last-child{border-bottom:0;}
+.item-head{display:flex;gap:14px;align-items:baseline;justify-content:space-between;flex-wrap:wrap;}
+.item-name,.spell-name{font-weight:bold;color:#eee;font-size:112%;}
+.item-type{color:var(--gold);font-weight:bold;white-space:nowrap;}
+.item-restriction{color:var(--muted);font-style:italic;width:100%;margin-top:2px;}
+.item-desc,.spell-desc{margin:5px 0 0;width:100%;font-size:102%;line-height:150%;text-align:left;}
+.spell-level{border:1px solid #796b58;border-left:5px solid var(--gold);border-radius:3px;overflow:hidden;background:rgba(0,0,0,.15);}
+.spell-level h3{width:100%;margin:0;padding:8px 14px;background:linear-gradient(#4d4439,#29251f);color:var(--gold);}
+.placeholder{width:88%;margin:18px auto;padding:12px 15px;border:1px dashed #8b7a63;color:var(--muted);background:rgba(0,0,0,.12);}
+.credits-list{width:90%;margin:10px auto;line-height:165%;}
+
+
+details.item-category-spoiler{
+  width:90%;
+  margin:16px auto;
+  border:1px solid #796b58;
+  border-left:5px solid var(--gold);
+  border-radius:3px;
+  overflow:hidden;
+  background:rgba(0,0,0,.15);
+}
+details.item-category-spoiler > summary{
+  list-style:none;
+  cursor:pointer;
+  padding:10px 14px;
+  font-weight:bold;
+  font-size:140%;
+  color:var(--gold);
+  background:linear-gradient(#4d4439,#29251f);
+  user-select:none;
+}
+details.item-category-spoiler > summary::-webkit-details-marker{display:none;}
+details.item-category-spoiler > summary::before{content:"▶";margin-right:10px;}
+details.item-category-spoiler[open] > summary::before{content:"▼";}
+.item-category-body{padding:0;}
+.item-category-body .item-entry{margin:0;}
+  
+
+details.spell-level > summary{
+  color:var(--gold);
+}
+  
+
+/* Spoilers imbriqués : même format, titre plus petit */
+.item-entry details.item-category-spoiler > summary{
+  font-size:100%;
+}
+   .item-source-ref{
+  font-size:70%;
+  color:var(--muted);
+  vertical-align:super;
+  font-weight:normal;
+}
+   /* Chandelle du monstre : sources des pierres */
+.stone-name{
+  font-weight:normal;
+  color:var(--text);
+}
+.interplan-source{
+  color:#eee;
+  font-weight:normal;
+  white-space:nowrap;
+}
+   /* Anneau alchimique : présentation type sorts */
+.alchemy-effects{
+  width:88%;
+  margin:10px auto 14px;
+  line-height:150%;
+}
+.alchemy-effects > li{
+  margin:8px 0 12px;
+}
+.alchemy-potion-name{
+  color:#eee;
+  font-weight:bold;
+}
+.alchemy-potion-effect{
+  margin-top:2px;
+  color:var(--text);
+}
+  
+/* Tableau du spoiler du Sceptre de Convocation */
+.sceptre-table-wrap{width:96%;margin:8px auto 20px;overflow-x:auto;}
+.sceptre-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:95%;line-height:145%;background:rgba(0,0,0,.08);}
+.sceptre-table col:nth-child(1){width:19%;}.sceptre-table col:nth-child(2){width:29%;}.sceptre-table col:nth-child(3){width:18%;}.sceptre-table col:nth-child(4){width:34%;}
+.sceptre-table th{padding:7px 9px;text-align:left;color:var(--gold);background:rgba(0,0,0,.22);border-bottom:2px solid #796b58;font-size:95%;}
+.sceptre-table td{padding:7px 9px;vertical-align:top;border-bottom:1px solid #62584b;overflow-wrap:anywhere;}
+.sceptre-table tbody tr:last-child td{border-bottom:0;}.sceptre-table td:first-child{font-weight:bold;color:#eee;}.sceptre-table td:nth-child(3){color:#eee;}.sceptre-table-empty{color:var(--muted);}
+@media(max-width:900px){.sceptre-table{min-width:900px;}}
+  
+.header-links{margin:20px auto 0;line-height:1.8;font-size:95%}
+.header-links a{white-space:nowrap}
+@media(max-width:760px){.header-links a{white-space:normal}}
+
+/* Ajustements propres au Mod Tweaker — même gabarit que l’Interplan */
+#cartouche{margin-top:20px}
+#header{min-height:245px}
+.header-grid{height:3.4em}
+#menu{margin-top:20px}
+#menu a{white-space:nowrap}
+.section{padding-bottom:15px}
+.section-title{padding:0}
+.section-title h2{width:100%}
+.section-title p{margin:8px auto 12px;color:var(--muted);font-size:95%;text-align:left}
+.entries{width:90%;margin:12px auto 22px}
+.entry{border-bottom:1px solid #6c6153;background:rgba(0,0,0,.08)}
+.entry:last-child{border-bottom:0}
+.entry summary{display:flex;flex-wrap:wrap;gap:4px;align-items:center;padding:12px 14px;color:#eee;font-weight:bold;cursor:pointer;list-style:none;line-height:1.5}
+.entry summary::-webkit-details-marker{display:none}
+.entry summary::before{content:'▶';color:var(--gold);margin-right:8px}
+.entry[open] summary::before{content:'▼'}
+.entry summary:hover{background:rgba(255,255,255,.04)}
+.entry summary .mod-link{color:var(--gold);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--gold2);position:relative;z-index:2}
+.entry summary .mod-link:hover{color:#fff}
+.entry .component-title{color:#eee}
+.entry-body{padding:0 18px 14px 38px;color:var(--text)}
+.entry-body p{font-size:100%;width:100%;margin:8px 0;line-height:1.55}
+.entry-body strong{color:#f0dcb0}
+.entry .count{color:var(--muted);margin-left:auto;font-weight:normal;font-size:82%}
+.entry-body .note{width:100%;margin:12px 0;font-size:100%}
+.section .back{margin:20px 5% 8px;text-align:right}
+.footer-inner{width:90%;margin:auto}
+.footer-inner p{width:100%}
+.footnote{font-style:italic}
+.section strong{color:#eee}
+#header .intro{margin:6px auto 0;width:86%;font-size:100%;text-align:center;line-height:155%}
+#header .hint{margin:8px auto 0;width:86%;font-size:84%;color:var(--muted);text-align:center}
+#header .version-line{margin:0 auto;text-align:center;color:var(--gold);font-weight:bold}
+@media(max-width:760px){.entries{width:94%}.entry-body{padding-left:15px}.entry .count{display:none}.header-grid{height:auto}.section-title p{width:94%}}
+
+/* Présentation ouverte de tous les composants */
+.section .kit-static{width:100%;margin:0;padding:15px 14px 18px;border-bottom:1px solid #796b58;background:rgba(0,0,0,.08);}
+.section .kit-static:last-child{border-bottom:0;}
+.section .kit-static h3{width:100%;margin:0 0 7px;font-size:125%;line-height:145%;color:var(--gold);}
+.section .kit-static h3 a{color:var(--gold);text-decoration:underline;text-underline-offset:3px;}
+.section .kit-static h3 a:hover{color:#eee;}
+.section .kit-static .component-subtitle{color:#eee;font-size:88%;font-weight:normal;}
+.section .kit-static p{width:100%;margin:6px 0;font-size:105%;line-height:155%;}
+.section .kit-static .kit-why{color:var(--muted);font-style:italic;}
+.section .kit-static .note{width:100%;margin:12px 0;}
+
+/* Historique des versions */
+#versions .changelog-body{width:90%;margin:18px auto;}
+#versions .changelog-body h3{width:100%;margin:22px 0 9px;padding:0 0 5px;border-bottom:1px solid #796b58;color:var(--gold);font-size:120%;}
+#versions .changelog-body ul{width:100%;margin:0;padding-left:25px;line-height:165%;}
+#versions .changelog-body li{margin:5px 0;}
+@media(max-width:760px){#versions .changelog-body{width:94%;}}
+</style></head><body><div id="cartouche"><a id="top"></a><div id="header"><h1>Deratiseur's Mods Tweaker</h1><div class="subtitle">Un mod de modifications optionnelles pour les mods Infinity Engine</div><div class="header-rule"></div><div class="header-grid"><div class="header-col header-col-left"><div><strong>Auteur :</strong> Deratiseur</div><div><strong>Type :</strong> ajustements de mods</div></div><div class="header-col header-col-right"><div><strong>Langue :</strong> français</div><div><strong>Version :</strong> 4</div></div></div><div class="header-links"><a href="https://github.com/Deratiseur" rel="noopener noreferrer" target="_blank">GitHub de l'auteur</a>  •  <a href="https://www.baldursgateworld.fr/viewtopic.php?t=34693" rel="noopener noreferrer" target="_blank">Couronne de Cuivre</a></div></div><nav id="menu"><a href="#intro">Présentation</a>  •  <a href="#pnj">Compagnons &amp; PNJ</a>  •  <a href="#objets">Objets &amp; magasins</a>  •  <a href="#kits">Kits</a>  •  <a href="#installation">Installation</a>  •  <a href="#compat">Compatibilité</a>  •  <a href="#versions">Mises à jour</a>
+    •
+    <a href="#remerciements">Remerciements</a></nav><div id="maindiv"><section class="content" id="intro"><h2>Présentation</h2><p>J'ai créé ce mod parce que certaines incohérences dans d'autres mods ne me convenaient pas. Je propose donc ces modifications optionnelles à installer après les mods à modifier.</p><p>Le but du Mod Tweaker n'est pas de corriger les bugs des autres mods, mais de proposer des changements de logique, de cohérence ou de confort de jeu. Chaque composant est facultatif.</p><div class="backtop"><a href="#top">Retour en haut</a></div></section><section class="content section" id="pnj"><div class="section-title"><h2>Compagnons &amp; PNJ</h2><p>Modifications de personnages, portraits, classes et recrutement · 13 composants</p></div><div class="entries"><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Horace" rel="noopener noreferrer" target="_blank">Horace</a> — Donner au PNJ Horace les immunités d'un squelette.</h3><p class="kit-why"><em>Parce que c'est un squelette, mais qu'il n'a aucune des immunités communes aux squelettes.</em></p><p>Il gagne 100 % de résistance au froid, 50 % de résistance aux dégâts tranchants, perforants et de projectiles, ainsi que toutes les immunités des morts-vivants.</p><p>Il a aussi 100 % de résistance à l'acide. Ce n'est pas logique, mais c'est le choix de l'auteur, aussi n'y ai-je pas touché.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Horace" rel="noopener noreferrer" target="_blank">Horace</a> — Déplacer le PNJ Horace dans le cimetière d'Athkatla.</h3><p class="kit-why"><em>Parce que, quand on recrute Horace, il a 150 000 XP, bien trop peu pour des héros accédant à la crypte de Francmarché.</em></p><p>Il est déplacé dans la crypte sous l'arche centrale, celle d'où les pilleurs de tombes sortent la nuit. Son dialogue se réfère toujours aux familles de Francmarché.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Chiara" rel="noopener noreferrer" target="_blank">Chiarra</a> — Donner au PNJ Chiarra, sous sa forme humaine, les immunités d'un vampire et fixer sa race sur « vampire ».</h3><p class="kit-why"><em>Parce que c'est une vampire, mais qu'elle n'a aucune des immunités communes aux vampires et que sa race est définie comme « humaine ».</em></p><p>Elle gagne 50 % de résistance au froid et à l'électricité, une régénération de 1 point de vie toutes les 2 secondes et toutes les immunités des morts-vivants.</p><p>Sa race devient « vampire ». C'est un changement purement cosmétique, sauf si vous installez le composant optionnel du mod « Valen NPC ».</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Moddie" rel="noopener noreferrer" target="_blank">Moddie</a> — Donner au PNJ Moddie un portrait adéquat.</h3><p class="kit-why"><em>Parce que c'est une renarde (un loup en VF) et que son portrait est celui d'un blaireau (de plus, ce portrait est réutilisé par le mod Coondred NPC).</em></p><p>Le nouveau portrait m'a été offert par scheele.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Moddie" rel="noopener noreferrer" target="_blank">Moddie</a> — Transformer le PNJ Moddie en compagnon animal (qui vous suit comme un septième compagnon).</h3><p class="kit-why"><em>Parce que c'est un animal avec des dialogues d'animal, et que l'équiper d'armes, d'armures et de bijoux est illogique.</em></p><p>Parlez-lui et grattez-la pour qu'elle devienne un compagnon animal. Reparlez-lui pour la réintégrer dans le groupe (pour l'équiper, lui faire gagner des niveaux, etc.). Vous pouvez à volonté la gratter ou lui demander de revenir.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Ninafer" rel="noopener noreferrer" target="_blank">Ninafer</a> — Donner au PNJ Ninafer un portrait alternatif.</h3><p class="kit-why"><em>Parce que Viconia en blonde, ça lui va bien, mais quand on a les deux dans l'équipe, ça ne colle pas.</em></p><p>Portrait pris sur son site officiel. Il peut vous sembler moche, mais il respecte le choix de l'auteur.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Ninafer" rel="noopener noreferrer" target="_blank">Ninafer</a> — Changer la classe du PNJ Ninafer en tueuse de magiciens/mage (elle garde son équipement familial).</h3><p class="kit-why"><em>Parce que son dialogue est axé sur l’élimination de mages mauvais.</em></p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Thael" rel="noopener noreferrer" target="_blank">Thael</a> — Changer la classe du PNJ Thael en Bretteur/mage.</h3><p class="kit-why"><em>Parce que son épée et son pouvoir mutant le destinent à combattre au corps à corps.</em></p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/FIGHT_Tomoyo" rel="noopener noreferrer" target="_blank">Tomoyo Sakagaki</a> — Changer la classe du PNJ Tomoyo Sakagaki en kensaï.</h3><p class="kit-why"><em>Parce que, dans les mangas, les jeunes filles qui combattent avec des katanas sont toujours en tenue d'écolière ou en kimono, jamais avec une armure.</em></p></div><div class="kit-static"><h3><a href="https://www.shsforums.net/topic/61087-mod-sub-zero-companion/" rel="noopener noreferrer" target="_blank">Sub-Zero</a> — Donner au PNJ Sub-Zero des caractéristiques décentes.</h3><p class="kit-why"><em>Parce qu'il a été créé avec Ctrl+8 : il a 18(00) dans toutes les caractéristiques.</em></p><p>Force 16, Dextérité 18, Constitution 15, Intelligence 14, Sagesse 12 et Charisme 10. (valeurs fixées après discussion sur le forum de la Couronne)</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Banana" rel="noopener noreferrer" target="_blank">Banana!</a> — Donner au PNJ Banana! des caractéristiques décentes.</h3><p class="kit-why"><em>Parce qu'il a été créé avec Ctrl+8 : il a 18(00) dans toutes les caractéristiques.</em></p><p>Force 16, Dextérité 18, Constitution 15, Intelligence 17, Sagesse 9 et Charisme 8.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/Yikari-NPC" rel="noopener noreferrer" target="_blank">Yikari</a> — Donner au PNJ Yikari un peu de charisme supplémentaire quand il retrouve la parole.</h3><p class="kit-why"><em>Parce qu'il a 4 en charisme et qu'il ne mérite pas ça.</em></p><p>Il passe à 6 de charisme quand il retrouve la parole.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Mawgul" rel="noopener noreferrer" target="_blank">Mawgul</a> — Retarder l'arrivée du PNJ Mawgul.</h3><p class="kit-why"><em>Parce qu'il commence avec 2,5 millions d'XP, beaucoup trop pour intégrer un groupe débutant.</em></p><p>Dans ce cas, il apparaîtra au même endroit, mais seulement si Charname a au moins <strong>2 millions</strong> d'XP.</p></div></div><div class="back"><a href="#top">Retour en haut</a></div></section><section class="content section" id="objets"><div class="section-title"><h2>Objets, magasins &amp; quêtes</h2><p>Objets rares, marchands supplémentaires et autres ajustements · 9 composants</p></div><div class="entries"><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/FIGHT_Umbra-Of-Torto" rel="noopener noreferrer" target="_blank">Umbra of T.R.O.W</a> — Les démons majeurs convocables dans Umbra of T.R.O.W laissent tomber leur cœur.</h3><p>Les Balors, Ravageurs et Diantrefosses laissent tomber leur cœur.</p><p class="kit-why"><em>Parce que ces cœurs peuvent servir aux forgerons et à d’autres mods (par exemple Every Mods and Dogs).</em></p></div><div class="kit-static"><h3><a href="https://www.shsforums.net/topic/39290-jamellas-diablo2-item-store-v20/" rel="noopener noreferrer" target="_blank">Jamella's Diablo2 Item Store</a> — Permettre à un autre marchand de vendre les objets de Jamella's Diablo2 Item Store (de façon illimitée).</h3><p class="kit-why"><em>Parce que proposer 160 objets à la vente alors qu'on ne peut en choisir qu'un, c'est du gâchis. Et en plus, les plus puissants ne sont achetables que si le groupe comprend au moins deux personnages dotés de kits du pack Diablo2 Kitpack.</em></p><p>Le nouveau marchand se trouve près de la Tour de Garde. Les prix n'ont pas changé : c'est toujours <strong>100K</strong> l'objet, certains <strong>200K</strong>.</p></div><div class="kit-static"><h3><a href="https://github.com/Deratiseur/Interplan" rel="noopener noreferrer" target="_blank">L'Interplan</a> — Permettre à un marchand dans TOB de vendre tous les objets trouvables par le Coffre chercheur de L'Interplan.</h3><p class="kit-why"><em>Parce que plus de 85 objets sont trouvables, mais qu'on ne peut en obtenir qu'un seul : c'est du gâchis.</em></p><p>Le nouveau marchand se trouve à Amkethran, près de l'Astrolabe. Si vous installez ce composant, le Coffre chercheur disparaît du stock de l'Interplan. Le marchand n'étant accessible qu'à Amkethran, vous ne pourrez plus profiter de la « rencontre spéciale » située plus tôt dans ToB par ce moyen.</p></div><div class="kit-static"><h3><a href="https://github.com/Deratiseur/Interplan" rel="noopener noreferrer" target="_blank">L'Interplan</a> — Un marchand concurrent vend le livre "Les secrets de l’Interplan".</h3><p class="kit-why"><em>Parce que certains « secrets » de ce mod sont si bien cachés qu'à part le concepteur du mod, on se demande qui pourrait en profiter.</em></p><p>C'est Galoomp, le comptable juste en face de l'Interplan, qui vend le livre.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/MISC_Sigil" rel="noopener noreferrer" target="_blank">Mod d'anniversaire du Forum Sigil.cz</a> — Rendre l'amulette beaucoup plus facile d'utilisation.</h3><p class="kit-why"><em>Parce que, pour l'utiliser, il faut ouvrir l'inventaire, faire un clic droit sur l'amulette et choisir « dialoguer ». Pas pratique du tout.</em></p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/MISC_Sigil" rel="noopener noreferrer" target="_blank">Mod d'anniversaire du Forum Sigil.cz</a> — Rendre l'amulette vraiment illimitée.</h3><p class="kit-why"><em>Parce que, si les personnages invoqués lancent leurs sorts offensifs, ils ne peuvent plus être invoqués.</em></p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Tortured" rel="noopener noreferrer" target="_blank">The Tortured Soul Quest</a> — Donner au PNJ Baenwuld un portrait.</h3><p class="kit-why"><em>Parce que, si vous l'engagez après l'avoir libéré, il n'a pas de portrait ou possède celui de Minsc.</em></p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Tortured" rel="noopener noreferrer" target="_blank">The Tortured Soul Quest</a> — Accorder la version recrutable de Baenwuld avec sa version invocable.</h3><p class="kit-why"><em>Parce que la version recrutée est moins forte et moins bien équipée, ce qui n'a aucun sens puisqu'il s'agit du même personnage.</em></p><p>Dans ce cas, c'est la version surpuissante (20 en force, +2,5 APR, TAC0 +5, équipement +4) que vous pourrez recruter.</p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/1D_NPC_Tortured" rel="noopener noreferrer" target="_blank">The Tortured Soul Quest</a> — Libérer Baenwuld de son esclavage rapporte de l'xp.</h3><p class="kit-why"><em>Parce qu'après tout, c'est une quête puisqu'il faut chercher un moyen de le libérer.</em></p><p>La résolution de la quête rapporte <strong>10000</strong> xp.</p></div></div><div class="back"><a href="#top">Retour en haut</a></div></section><section class="content section" id="kits"><div class="section-title"><h2>Kits</h2><p>Ajustements de capacités et de transformations · 2 composants</p></div><div class="entries"><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/KIT_Lion" rel="noopener noreferrer" target="_blank">Guerrier lion</a> — Rendre la métamorphose du kit de Guerrier lion semi-permanente (comme les métamorphes modifiées par Tweak Anthology ou SCS).</h3><p class="kit-why"><em>Parce que les mods sus-cités ne prennent pas en compte les métamorphoses venues de mods.</em></p></div><div class="kit-static"><h3><a href="https://github.com/Plutonium-X/KIT_Slime" rel="noopener noreferrer" target="_blank">Mutant de gelée</a> — Empêcher le kit de mutant de gelée de changer le sexe du personnage en androgyne.</h3><p class="kit-why"><em>Parce que cela peut perturber les romances.</em></p></div></div><div class="back"><a href="#top">Retour en haut</a></div></section><section class="content" id="installation"><h2>Installation</h2><p>Installez d'abord les mods auxquels vous souhaitez appliquer des modifications, puis le Mod Tweaker. Choisissez uniquement les composants qui vous intéressent dans le programme d'installation WeiDU.</p><p>Les mods d'origine sont nécessaires pour profiter de leurs modifications respectives : le Mod Tweaker ne les fournit pas et ne remplace pas leur installation.</p><p>Pour les détails propres à un composant, consultez sa description dans les catégories ci-dessus.</p><div class="backtop"><a href="#top">Retour en haut</a></div></section><section class="content" id="compat"><h2>Compatibilité</h2><p>Ce mod est destiné aux installations comprenant les mods mentionnés dans les descriptions des composants. Installez le Tweaker <strong>après</strong> ces mods, afin que les ressources à modifier soient présentes.</p><p>Chaque composant modifie des ressources ou un comportement précis. Les effets peuvent dépendre des versions des mods concernés et des autres modifications installées ; aucune compatibilité universelle n'est garantie.</p><div class="backtop"><a href="#top">Retour en haut</a></div></section><section class="content section" id="versions"><h2>Mises à jour</h2><div class="changelog-body"><h3>Version 4</h3><ul><li>Révision des taux d’achat et de vente du magasin alternatif pour Diablo 2 Item Pack.</li><li>Révision des taux d’achat et de vente du magasin alternatif pour L’Interplan.</li><li>Mise à jour du composant « Permettre à un marchand dans ToB de vendre tous les objets trouvables par le Coffre chercheur de L’Interplan » pour l’adapter à L’Interplan v10.</li><li>Suppression du composant « Retarder l’arrivée de l’anneau d’Umbra of T.R.O.W. », car Umbra of Torto a été remplacé par son successeur, qui place l’anneau ailleurs.</li><li>Conversion des readmes PDF au format HTML.</li></ul><h3>Version 3.2</h3><ul><li>Correction : le mod ne reconnaissait pas la dernière version de L’Interplan.</li></ul><h3>Version 3.1</h3><ul><li>Correction : des fichiers .tra en double empêchaient l’installation.</li></ul><h3>Version 3</h3><ul><li>Ajout de trois composants pour The Tortured Soul Quest.</li><li>Ajout de deux composants pour L’Interplan.</li><li>Ajout de deux composants pour le mod d’anniversaire de Sigil.</li><li>Ajout d’un composant pour le kit de Mutant de gelée.</li></ul><h3>Version 2</h3><ul><li>Réduction de la Sagesse de Sub-Zero à 12 (Rivvers, qui proposait 12, est un puriste ; LoupGris proposait 14 uniquement pour améliorer les dégâts par seconde d’un moine générique).</li><li>Correction du nom « Arena of T.R.O.W. » en « Umbra of T.R.O.W. ».</li><li>Le composant « Donner au PNJ Moddie un portrait adéquat » devient installable grâce à un nouveau portrait spontanément offert par scheele (merci beaucoup).</li><li>Ajout d’un composant pour le kit de Guerrier lion.</li><li>Ajout d’un composant pour le PNJ Mawgul.</li><li>Ajout d’un composant pour le PNJ Banana.</li><li>Ajout d’un composant pour The Tortured Soul Quest.</li><li>Ajout d’un composant pour Tomoyo and the Underground City.</li></ul></div><div class="backtop"><a href="#top">Retour en haut</a></div></section><section class="content section" id="remerciements"><div class="footer-inner"><h2>Remerciements</h2><p>À JohnBob, Selphira et Rivvers, sans qui ce mod n'aurait pas pu être terminé.</p><p>À scheele pour le portrait de Chiara.</p><hr style="border:0;border-top:1px solid #776347;margin:24px 0"/><p class="footnote">Note : si vous remarquez vous-même certaines incohérences dans un mod, suggérez-les-moi. Je pourrais éventuellement proposer des modifications dans une future version du Tweaker.</p></div></section></div></div></body></html>

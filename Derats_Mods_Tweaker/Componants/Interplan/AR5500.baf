@@ -1,0 +1,7 @@
+IF
+	Global("PxMTW_interplan","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("PxMTW_interplan","GLOBAL",1)
+		CreateCreature("pxinter1",[2374.274],S)
+END
