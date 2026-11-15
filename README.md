@@ -3,14 +3,14 @@
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20&color=informational)
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2%20%7C%20BGT%20%7C%20BG2EE%20%7C%20EET%20%7C&color=dodgerblue)
-![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Deratiseur/Mod_Tweaker/total)
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Deratiseur/Mods_Tweaker/total)
 
 **Author** : **Deratiseur**
 
 [Lien vers le forum français](https://www.baldursgateworld.fr/viewtopic.php?t=34693)
 
-[Lien vers le Lisez-moi complet](https://htmlpreview.github.io/?https://github.com/Deratiseur/Mods_Tweaker/blob/main/Derats_Mods_Tweaker/Documents/Mod_Tweaker_Lisez_moi.html)  
-[Link to full readme](https://htmlpreview.github.io/?https://github.com/Deratiseur/Mods_Tweaker/blob/main/Derats_Mods_Tweaker/Documents/Mod_Tweaker_Read_me.html)  
+[Lien vers lee Lisez-moi complet.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Mods_Tweaker/blob/main/Deratiseur_Mods_Tweaker/Mods_Tweaker_Readme_French.html)  
+[Link to the full Readme.](https://htmlpreview.github.io/?https://github.com/Deratiseur/Mods_Tweaker/blob/main/Deratiseur_Mods_Tweaker/Mods_Tweaker_Readme_English.html)     
 
 <table>
 <tr>
